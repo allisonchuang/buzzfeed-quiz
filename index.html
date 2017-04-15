@@ -7,9 +7,9 @@
   </head>
   <body>
     <div id="quiz-head">
-      <div id="quiz-header">The Greatest Firetrucking Quiz of All Time</div>
+      <div id="quiz-header">What kind of swearer are you?</div>
     </div>
-    <div class="question-div">
+    <div class="question-div" id="room-question">
       <div class="question">What does your room look like?</div>
     </div>
     <div class="answers">
@@ -81,7 +81,7 @@
       </label>
     </div>
 
-    <div class="question-div">
+    <div class="question-div" id="food-question">
       <div class="question">What is your favorite food?</div>
     </div>
     <div class="answers">
@@ -153,7 +153,7 @@
       </label>
     </div>
 
-    <div class="question-div">
+    <div class="question-div" id="char-question">
       <div class="question">Who is your favorite character?</div>
     </div>
     <div class="answers">
@@ -170,12 +170,12 @@
       </label>
       <label>
         <div class="answer" type="char" id="char2">
-          <img src="http://orig12.deviantart.net/e255/f/2014/111/c/c/hiccup_x_reader___friends____by_alicestone1-d7felxm.jpg" />
+          <img src="https://s-media-cache-ak0.pinimg.com/originals/5e/17/8a/5e178a193ea3fe26066e94babd385d55.jpg" />
           <div class="info-area">
             <input type="radio" name="char" id="char2" value="3"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">Prepubescent Hiccup</div>
+            <div class="text">Moana</div>
           </div>
         </div>
       </label>
@@ -225,7 +225,7 @@
       </label>
     </div>
 
-    <div class="question-div">
+    <div class="question-div" id="sports-question">
       <div class="question">What sport would you play?</div>
     </div>
     <div class="answers">
@@ -253,7 +253,7 @@
       </label>
       <label>
         <div class="answer" type="sport" id="sport3">
-          <img src="http://images.supersport.com/2016/6/Andy-Murray-screams-160619G300.jpg" />
+          <img src="http://static.dnaindia.com/sites/default/files/2014/09/22/269396-li-na-reuters.jpg" />
           <div class="info-area">
             <input type="radio" name="sport" id="sport3" value="5"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
@@ -286,7 +286,7 @@
       </label>
       <label>
         <div class="answer" type="sport" id="sport6">
-          <img src="http://images.parents.mdpcdn.com/sites/parents.com/files/styles/width_300/public/images/p_101564038.jpg" />
+          <img src="http://cdn.24.co.za/files/Cms/General/d/93/58cbdf2a3bc849b49bfc2db793f5272b.jpg" />
           <div class="info-area">
             <input type="radio" name="sport" id="sport6" value="3"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
@@ -297,7 +297,7 @@
       </label>
     </div>
 
-    <div class="question-div">
+    <div class="question-div" id="place-question">
       <div class="question">Where would you choose to be?</div>
     </div>
     <div class="answers">
@@ -347,7 +347,7 @@
       </label>
       <label>
         <div class="answer" type="place" id="place5">
-          <img src="http://www.chaminade.com/i/SITE_160823_14341678_V1L0K/content/CMS_08232016_150730220_3SBO2/E968B331-9FF3-A7B7-D662D81F232C5F21.JPG" />
+          <img src="https://ae01.alicdn.com/kf/HTB15aKrNXXXXXXxXXXXq6xXFXXXX/Gourd-moxibustion-moxa-font-b-box-b-font-moxa-burner-Navel-spa-font-b-massage-b.jpg" />
           <div class="info-area">
             <input type="radio" name="place" id="place5" value="1"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
@@ -369,7 +369,7 @@
       </label>
     </div>
 
-    <div class="question-div">
+    <div class="question-div" id="hobby-question">
       <div class="question">Which is your favorite hobby?</div>
     </div>
     <div class="answers">
@@ -388,7 +388,7 @@
         <div class="answer" type="hobby" id="hobby2">
           <img src="https://g.foolcdn.com/editorial/images/206699/looking-for-stocks_large.jpg" />
           <div class="info-area">
-            <input type="radio" name="hobby" id="hobby2" value="2"/>
+            <input type="radio" name="hobby" id="hobby2" value="5"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="text">Stocks</div>
@@ -397,123 +397,185 @@
       </label>
       <label>
         <div class="answer" type="hobby" id="hobby3">
-          <img src="images/messy.jpg" />
+          <img src="http://www.restaurantbusinessonline.com/sites/default/files/watching-basketball-square.jpg" />
           <div class="info-area">
-            <input type="radio" name="hobby" id="hobby3" value="2"/>
+            <input type="radio" name="hobby" id="hobby3" value="6"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
+            <div class="text">Watching sports</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="hobby" id="hobby4">
-          <img src="images/messy.jpg" />
+          <img src="http://ohn1.slausworks.netdna-cdn.com/newohnblog/wp-content/uploads/2013/09/watching-movie.jpg" />
           <div class="info-area">
-            <input type="radio" name="hobby" id="hobby4" value="1"/>
+            <input type="radio" name="hobby" id="hobby4" value="4"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
+            <div class="text">Movies</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="hobby" id="hobby5">
-          <img src="images/messy.jpg" />
+          <img src="http://www.startwithabook.org/sites/default/files/themes_cooking.jpg" />
           <div class="info-area">
-            <input type="radio" name="hobby" id="hobby5" value="1"/>
+            <input type="radio" name="hobby" id="hobby5" value="3"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
+            <div class="text">Cooking</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="hobby" id="hobby6">
-          <img src="images/messy.jpg" />
+          <img src="https://images-na.ssl-images-amazon.com/images/I/61pNBBiJ0RL._SS500.jpg" />
           <div class="info-area">
             <input type="radio" name="hobby" id="hobby6" value="2"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
+            <div class="text">Musicals</div>
           </div>
         </div>
       </label>
     </div>
 
-    <div class="question-div">
-      <div class="question">What is your motto?</div>
+    <div class="question-div" id="motto-question">
+      <div class="question">Pick a motto</div>
     </div>
     <div class="answers">
       <label>
         <div class="answer" type="motto" id="motto1">
-          <img src="images/messy.jpg" />
+          <div class="text-box">
+            <div class="text-answer">Sugar and spice and everything nice</div>
+          </div>
           <div class="info-area">
             <input type="radio" name="motto" id="motto1" value="1"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk asd asdf asdf afsd</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="motto" id="motto2">
-          <img src="images/messy.jpg" />
+          <div class="text-box">
+            <div class="text-answer">Aw, fudge.</div>
+          </div>
           <div class="info-area">
-            <input type="radio" name="motto" id="motto2" value="2"/>
+            <input type="radio" name="motto" id="motto2" value="4"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="motto" id="motto3">
-          <img src="images/messy.jpg" />
+          <div class="text-box">
+            <div class="text-answer">This is my motto</div>
+          </div>
           <div class="info-area">
-            <input type="radio" name="motto" id="motto3" value="2"/>
+            <input type="radio" name="motto" id="motto3" value="3"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="motto" id="motto4">
-          <img src="images/messy.jpg" />
+          <div class="text-box">
+            <div class="text-answer">I FiretrUCKing love mottos</div>
+          </div>
           <div class="info-area">
-            <input type="radio" name="motto" id="motto4" value="1"/>
+            <input type="radio" name="motto" id="motto4" value="5"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="motto" id="motto5">
-          <img src="images/messy.jpg" />
+          <div class="text-box">
+            <div class="text-answer">Hey is for horses</div>
+          </div>
           <div class="info-area">
-            <input type="radio" name="motto" id="motto5" value="1"/>
+            <input type="radio" name="motto" id="motto5" value="2"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
           </div>
         </div>
       </label>
       <label>
         <div class="answer" type="motto" id="motto6">
-          <img src="images/messy.jpg" />
+          <div class="text-box">
+            <div class="text-answer">What the $%#@! is a motto?</div>
+          </div>
           <div class="info-area">
-            <input type="radio" name="motto" id="motto6" value="2"/>
+            <input type="radio" name="motto" id="motto6" value="6"/>
             <div class="unchecked"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></div>
             <div class="checked"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i></div>
-            <div class="text">This desk</div>
           </div>
         </div>
       </label>
     </div>
 
+    <div id="error">
+      <div id="error-text">Please make sure to answer all the questions.</div>
+    </div>
+
     <button type="calculate" id="fin">Finished!</button>
+
+    <div class="results" id="super">
+      <div class="result">You got: Super Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">Rinse your mouth with soap. Your speech is not only extreme and explicit,
+              but you also don't give a $@#^! about who hears you. Even your mean old gym teacher thinks
+              you swear too much. But that's ok, you swear loud and proud.</div>
+        <img class="img-result" src="https://s-media-cache-ak0.pinimg.com/originals/12/31/f3/1231f36f36ceb58e72d4ee39df0cb199.jpg" />
+      </div>
+    </div>
+
+    <div class="results" id="silent">
+      <div class="result">You got: Silent Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">You swear a bunch, but it's always under your breath. In fact, you probably
+              say some of the most explicit swears out of all the types of swearers - it's just that nobody
+              ever hears you. Props to you for keeping it to yourself. Self control takes talent.</div>
+        <img class="img-result" src="https://media.giphy.com/media/8csLcEhNQmsIU/giphy.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="hulk">
+      <div class="result">You got: Hulk Swearer</div>
+      <div class="extra-results">
+          <div class="explanation">You don't swear often, but when you do it's a raging rant that lasts for
+              hours. No one can stop you once you begin one of your swearing bouts because you become superhuman.
+              In fact, some question whether you even stop to take a breath when you start swearing - your swearing
+              just goes on and on. There's no time for a pause.</div>
+        <img class="img-result" src="http://stream1.gifsoup.com/view/505957/hulk-o.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="clean">
+      <div class="result">You got: Squeaky Cleaner</div>
+      <div class="extra-results">
+        <div class="explanation">You have never sworn once in your life. In fact, you have never said
+              anything bad before in your life. Not only do you never swear, but your life also seems
+              to be perfectly put together. Some would tell you to live a little, but it is honestly
+              a feat to have stayed censored for so long.</div>
+        <img class="img-result" src="https://68.media.tumblr.com/ede674683d141efc7508b6d5c0416868/tumblr_o0sk7bbFN71u297yso1_250.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="prepubescent">
+      <div class="result">You got: Prepubescent Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">You're just trying to grow up. And the best way to become an adult, you
+              figure, is to swear a bunch. But it doesn't come quite naturally to you yet and your swearing sounds
+              a bit off. Just keep trying! Swearing takes practice!</div>
+        <img class="img-result" src="http://vignette1.wikia.nocookie.net/modernfamily/images/d/d3/1356128029479450_animate.gif/revision/latest?cb=20151214055225" />
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
