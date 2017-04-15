@@ -4,9 +4,8 @@ $('#fin').on('click', function(e) {
     return $(radio).val();
   }).toArray();
 
-  $('button[type=calculate]').css("display", "none");
-
   if (choices.length == 7) {
+    $('button[type=calculate]').css("display", "none");
     var count = 0;
     for (i = 0; i < choices.length; i++) {
       count += parseInt(choices[i]);
