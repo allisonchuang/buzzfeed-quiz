@@ -45,6 +45,6 @@ $("input[type='radio']").on('change', function (e) {
   $(`div[type=${group}]`).css("box-shadow", "0em 0em 0em 0em rgba(50, 50, 50, 1)");
 
   $(`#${checked}`).css("opacity", "1");
-  $(`#${checked}`).css("background", "rgba(197, 217, 255, 1)");
+  $(`#${checked}`).css("background", "rgba(187, 200, 255, 1)");
   $(`#${checked}`).css("box-shadow", "0em 0em .9em .2em rgba(50, 50, 50, 1)");
 });
